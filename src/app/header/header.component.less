@@ -1,0 +1,42 @@
+@import '../app.component.less';
+
+.header {
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  background: cornflowerblue;
+  min-height: 71px;
+  z-index: 1;
+}
+
+.header-top {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  border: 1px solid black;
+  ul {
+    display: block;
+    width: 70%;
+    padding: 0;
+  }
+  ul, div {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+  }
+  a {
+    position: relative;
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    min-width: 80px;
+    text-align: center;
+  }
+}
