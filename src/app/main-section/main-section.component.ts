@@ -1,5 +1,3 @@
-'use strict';
-
 import {Component} from '@angular/core';
 
 @Component({
@@ -9,7 +7,8 @@ import {Component} from '@angular/core';
 })
 
 export class MainSectionComponent {
-    title = 'Титул страницы';
-    body = 'Какой-то текст в теле страницы';
-    text = 'Небольшое описание обо мне';
+    title = 'Привет, пользователь';
+    body = 'Ты находишься на сайте разработчика';
+    text = 'Мой опыт разработки составляет не более 2-ух лет';
+    mvc = 'Сайт был написан на Angular 5v';
 }
